@@ -1,7 +1,7 @@
 (provide 'yasnippet_extensions)
 
 (defun insert_rdoc_comments_for_arguments ()
-  (re-search-forward "def \\([a-zA-Z_0-9]+\\)\\(([^)]*)\\)" nil t)
+  (re-search-forward "def \\([\.a-zA-Z_0-9]+\\)\\(([^)]*)\\)" nil t)
   (match-data)
   (setq method-name (buffer-substring (match-beginning 1) (match-end 1)))
   (setq method-args (buffer-substring (match-beginning 2) (match-end 2)))
