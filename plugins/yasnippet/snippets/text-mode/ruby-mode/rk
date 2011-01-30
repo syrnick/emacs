@@ -1,0 +1,4 @@
+#name : :redis_key: name key (redis)
+#group : redis
+# --
+redis_key :$0, "job:JOB_ID:$1"

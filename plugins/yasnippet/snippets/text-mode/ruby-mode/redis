@@ -1,0 +1,10 @@
+#name : redis support helper
+#group : redis
+# --
+include RedisSupport
+
+Key definitions go here: `(comment-region (point-at-bol ) (point-at-eol ))`
+
+Keys cleanup goes here: `(comment-region (point-at-bol ) (point-at-eol ))`
+
+Redis loss recovery notes go here: `(comment-region (point-at-bol ) (point-at-eol ))`

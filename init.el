@@ -149,6 +149,6 @@
 
 ;; for emailing with emacs!
 (setq mail-archive-file-name "~/.emacs.d/sentmail")
-(defconst user-mail-address "johnle@cs.stanford.edu")
+(defconst user-mail-address "alex@crowdflower.com")
 
 (set-register ?e '(file . "~/.emacs.d/init.el"))

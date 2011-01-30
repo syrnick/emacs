@@ -10,6 +10,7 @@
 ;;========================================================================
 (add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
+(require 'yasnippet_extensions)
 (yas/initialize)
 (yas/load-directory "~/.emacs.d/plugins/yasnippet/snippets")
 
@@ -72,6 +73,7 @@
 ;;========================================================================
 ;; R
 ;;========================================================================
+(add-to-list 'load-path "~/.emacs.d/ess-5.10/lisp")
 (require 'ess-site)
 
 
@@ -186,4 +188,4 @@
 (require 'wrap-region)
 (wrap-region-global-mode)
 
-(require 'haml-mode)
+;(require 'haml-mode)

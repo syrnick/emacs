@@ -1,0 +1,12 @@
+#name : pretty comment
+#group : comments
+# --
+
+#
+#  $1
+#
+# === Parameters: 
+`(insert_rdoc_comments_for_arguments)`#
+# === Returns:
+#  $3::
+#
